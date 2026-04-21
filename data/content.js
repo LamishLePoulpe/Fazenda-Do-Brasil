@@ -195,7 +195,7 @@ export const FOIRES = [
   { ville: 'Nantes',          event: 'Foire de Nantes',          dates: '02/04 · 06/04', lieu: 'Parc Expo Nantes (44)',    status: 'passed',   label: 'Terminé'},
   { ville: 'Limoges',         event: 'Foire de Limoges',         dates: '30/05 · 07/06', lieu: 'Parc Expo Limoges (87)',   status: 'soon',     label: 'À venir'},
   { ville: 'Nemours',         event: 'Foire de la Saint-Jean',   dates: '18/06 · 21/06', lieu: 'Coeur de Nemours (77)',    status: 'soon',     label: 'Bientôt'},
-  { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/03 · 28/03', lieu: 'Milly-la-Forêt (91)',      status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/06 · 28/06', lieu: 'Milly-la-Forêt (91)',      status: 'upcoming', label: 'Confirmé'},
   { ville: 'Douai',           event: 'Foire de Douai',           dates: 'A Confirmer',   lieu: 'Parc Expo Douai (59)',     status: 'upcoming', label: 'Confirmé'},
   { ville: 'Montluçon',       event: 'Foire de Montluçon',       dates: '03/10 · 11/10', lieu: 'Parc Expo Montluçon (03)', status: 'upcoming', label: 'Confirmé'},
   { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '30/10 · 08/11', lieu: 'Parc Expo Grenoble (38)',  status: 'upcoming', label: 'Confirmé'},
