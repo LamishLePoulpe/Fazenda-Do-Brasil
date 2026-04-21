@@ -198,7 +198,7 @@ export const FOIRES = [
   { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/03 · 28/03', lieu: 'Milly-la-Forêt (91)',      status: 'upcoming', label: 'Confirmé'},
   { ville: 'Douai',           event: 'Foire de Douai',           dates: 'A Confirmer',   lieu: 'Parc Expo Douai (59)',     status: 'upcoming', label: 'Confirmé'},
   { ville: 'Montluçon',       event: 'Foire de Montluçon',       dates: '03/10 · 11/10', lieu: 'Parc Expo Montluçon (03)', status: 'upcoming', label: 'Confirmé'},
-  { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '21/03 · 29/03', lieu: 'Parc Expo Grenoble (38)',  status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '30/10 · 08/11', lieu: 'Parc Expo Grenoble (38)',  status: 'upcoming', label: 'Confirmé'},
 ];
 
 /** Données de la carte complète par onglet */
