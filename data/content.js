@@ -11,7 +11,7 @@ export const PLATS = [
     name:  'Picanha',
     desc:  'Cœur de rumsteck grillé au gros sel de mer',
     price: '26 €',
-    badge: '⭐ Star',
+    badge: 'Grillades',
     bg:    'linear-gradient(135deg,#3D1A0A,#8B3A10)',
   },
   {
@@ -32,7 +32,7 @@ export const PLATS = [
     name:  "Gigot d'Agneau",
     desc:  "Mariné aux herbes fraîches, huile d'olive",
     price: '26 €',
-    badge: 'Prestige',
+    badge: 'Grillades',
     bg:    'linear-gradient(135deg,#1A1A0A,#6B5A10)',
   },
   {
@@ -62,20 +62,6 @@ export const PLATS = [
     price: '19 €',
     badge: 'Salade',
     bg:    'linear-gradient(135deg,#0A3D1A,#10882A)',
-  },
-  {
-    name:  'Formule Fazenda',
-    desc:  '3 viandes marinées + riz, feijoada, frites maison',
-    price: '26 €',
-    badge: 'Formule',
-    bg:    'linear-gradient(135deg,#2A0A3D,#6A2A8B)',
-  },
-  {
-    name:  'Formule Churrasco',
-    desc:  'Entrée + 5 viandes + dessert au choix',
-    price: '38 €',
-    badge: '🏆 Best',
-    bg:    'linear-gradient(135deg,#3D1A00,#AA4400)',
   },
   {
     name:  'Manjar',
@@ -155,7 +141,7 @@ export const FORMULES = [
     lines: [
       'Salade Fraîcheur',
       'Poulet · Saucisse · Rôti de porc',
-      'Gigot d\'agneau · <strong>Picanha</strong>',
+      'Gigot d\'agneau · Picanha',
       'Riz · Feijoada · Frites maison',
       'Dessert au choix',
     ],
@@ -176,13 +162,15 @@ export const FORMULES = [
 ];
 
 export const FOIRES = [
-  { ville: 'Moulins',       event: 'Foire de Moulins',       dates: 'Dates à confirmer 2026', lieu: 'Moulins, Allier (03)',            status: 'upcoming', label: 'À venir'   },
-  { ville: 'Rennes',        event: 'Foire de Rennes',        dates: 'Dates à confirmer 2026', lieu: 'Rennes, Ille-et-Vilaine (35)',    status: 'upcoming', label: 'À venir'   },
-  { ville: 'Nantes',        event: 'Foire de Nantes',        dates: 'Dates à confirmer 2026', lieu: 'Nantes, Loire-Atlantique (44)',   status: 'soon',     label: 'Bientôt'   },
-  { ville: 'Milly-la-Forêt',event: 'Foire de Milly-la-Forêt',dates:'Dates à confirmer 2026', lieu: 'Milly-la-Forêt, Essonne (91)',    status: 'upcoming', label: 'Confirmé'  },
-  { ville: 'Douai',         event: 'Foire de Douai',         dates: 'Dates à confirmer 2026', lieu: 'Douai, Nord (59)',                status: 'upcoming', label: 'Confirmé'  },
-  { ville: 'Montluçon',     event: 'Foire de Montluçon',     dates: 'Dates à confirmer 2026', lieu: 'Montluçon, Allier (03)',          status: 'upcoming', label: 'À venir'   },
-  { ville: 'Grenoble',      event: 'Foire de Grenoble',      dates: 'Dates à confirmer 2026', lieu: 'Grenoble, Isère (38)',            status: 'soon',     label: 'Bientôt'   },
+  { ville: 'Moulins',         event: 'Foire de Moulins',         dates: '30/01 · 08/02', lieu: 'Parc Expo Moulins, Allier (03)',          status: 'passed',   label: 'Terminé'},
+  { ville: 'Rennes',          event: 'Foire de Rennes',          dates: '21/03 · 29/03', lieu: 'Parc expo Rennes, Ille-et-Vilaine (35)',  status: 'passed',   label: 'Terminé'},
+  { ville: 'Nantes',          event: 'Foire de Nantes',          dates: '02/04 · 06/04', lieu: 'Parc Expo Nantes, Loire-Atlantique (44)', status: 'passed',   label: 'Terminé'},
+  { ville: 'Limoges',         event: 'Foire de Limoges',         dates: '30/05 · 07/06', lieu: 'Parc Expo Limoges, Haute-Vienne (87)',    status: 'soon',     label: 'À venir'},
+  { ville: 'Nemours',         event: 'Foire de la Saint-Jean',   dates: '18/06 · 21/06', lieu: 'Coeur de Nemours, Seine-et-Marne (77)',   status: 'soon',     label: 'Bientôt'},
+  { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/03 · 28/03', lieu: 'Milly-la-Forêt, Essonne (91)',            status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Douai',           event: 'Foire de Douai',           dates: 'A Confirmer',   lieu: 'Parc Expo Douai, Nord (59)',              status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Montluçon',       event: 'Foire de Montluçon',       dates: '03/10 · 11/10', lieu: 'Parc Expo Montluçon, Allier (03)',        status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '21/03 · 29/03', lieu: 'Grenoble, Isère (38)',                    status: 'upcoming', label: 'Confirmé'},
 ];
 
 /** Données de la carte complète par onglet */
@@ -190,7 +178,7 @@ export const MENU = {
   viandes: {
     note: '✅ Toutes nos viandes sont accompagnées de riz blanc parfumé, feijoada et frites maison',
     items: [
-      { name: 'Poulet',          desc: "Mariné aux herbes fraîches et huile d'olive",       price: '19 €' },
+      { name: 'Poulet',          desc: "Mariné aux herbes fraîches et huile d'olive",        price: '19 €' },
       { name: 'Rôti de Porc',    desc: "Mariné aux herbes fraîches, huile d'olive",          price: '21 €' },
       { name: 'Picanha',         desc: 'Cœur de rumsteck grillé au gros sel de mer',         price: '26 €' },
       { name: "Gigot d'Agneau",  desc: "Mariné aux herbes fraîches, huile d'olive",          price: '26 €' },
