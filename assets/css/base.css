@@ -41,11 +41,7 @@
 
 /* ----- Base ----- */
 
-html, body {
-  cursor: none;
-}
-
-a, button, [role="button"] {
+html, body, a, button, input, select, textarea, [role="button"] {
   cursor: none;
 }
 
