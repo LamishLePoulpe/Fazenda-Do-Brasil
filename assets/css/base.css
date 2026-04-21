@@ -40,6 +40,15 @@
 }
 
 /* ----- Base ----- */
+
+html, body {
+  cursor: none;
+}
+
+a, button, [role="button"] {
+  cursor: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
