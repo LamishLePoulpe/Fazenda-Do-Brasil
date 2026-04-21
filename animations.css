@@ -1,0 +1,112 @@
+/* ============================================================
+   ANIMATIONS.CSS — Keyframes, Scroll Reveal, Curseur, Particules
+   Churrascaria Fazenda Do Brasil
+   ============================================================ */
+
+/* ----- Curseur personnalisé ----- */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--brasil-yellow);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.15s, background 0.2s;
+  transform: translate(-50%, -50%);
+}
+
+/* ----- Scroll Reveal ----- */
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.reveal-left.visible { opacity: 1; transform: translateX(0); }
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+/* ----- Hero ----- */
+@keyframes heroIn {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes heroLogoIn {
+  from { opacity: 0; transform: translateY(-40%) scale(0.8); }
+  to   { opacity: 1; transform: translateY(-50%) rotate(-1deg); }
+}
+@keyframes floatLogo {
+  0%, 100% { transform: translateY(-50%) rotate(-1deg); }
+  50%       { transform: translateY(calc(-50% - 15px)) rotate(1deg); }
+}
+@keyframes chevronBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); opacity: 1; }
+  50%       { transform: rotate(45deg) translateY(4px); opacity: 0.4; }
+}
+
+/* ----- About ----- */
+@keyframes spinSlow   { to { transform: rotate(360deg); } }
+@keyframes badgePulse {
+  0%, 100% { transform: scale(1) rotate(-5deg); }
+  50%       { transform: scale(1.06) rotate(-5deg); }
+}
+
+/* ----- Marquee plats ----- */
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* ----- Formules shine ----- */
+/* (géré dans components.css via transition) */
+
+/* ----- Ruban foires ----- */
+@keyframes ribbonScroll { to { transform: translateX(-50%); } }
+
+/* ----- Particules / Feuilles ----- */
+@keyframes sway {
+  0%, 100% { transform: rotate(var(--r0)) scale(1); }
+  50%       { transform: rotate(var(--r1)) scale(1.05); }
+}
+@keyframes drift {
+  0%   { transform: translateY(100vh) rotate(0deg);   opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 0.7; }
+  100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+}
+
+/* ----- Drawer mobile ----- */
+@keyframes drawerIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ----- Tab fade ----- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ----- Particules DOM ----- */
+.leaf {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.12;
+  font-size: 4rem;
+  animation: sway linear infinite;
+}
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: drift linear infinite;
+}
