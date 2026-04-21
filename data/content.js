@@ -176,7 +176,7 @@ export const FOIRES = [
 /** Données de la carte complète par onglet */
 export const MENU = {
   viandes: {
-    note: '✅ Toutes nos viandes sont accompagnées de riz blanc parfumé, feijoada et frites maison',
+    note: 'Toutes nos viandes sont accompagnées de riz blanc parfumé, feijoada et frites maison',
     items: [
       { name: 'Poulet',          desc: "Mariné aux herbes fraîches et huile d'olive",        price: '19 €' },
       { name: 'Rôti de Porc',    desc: "Mariné aux herbes fraîches, huile d'olive",          price: '21 €' },
