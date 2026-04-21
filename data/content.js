@@ -228,9 +228,9 @@ export const MENU = {
       {
         title: 'VINS ROUGE — 75cl · 37,5cl',
         items: [
-          { name: 'Bordeaux A.O.C',          desc: '75cl · 37,5cl · Verre 14cl',           price: '25 € · 15 € · 6 € le verre' },
-          { name: 'Chilien – Gato Negro',    desc: '75cl · Verre 14cl',                    price: '28 € · 7 € le verre'        },
-          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                              price: '26 €'                        },
+          { name: 'Bordeaux A.O.C',             desc: '75cl · 37,5cl · Verre 14cl',           price: '25 € · 15 € · 6 € le verre' },
+          { name: 'Chilien – Gato Negro',       desc: '75cl · Verre 14cl',                    price: '28 € · 7 € le verre'        },
+          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                                 price: '26 €'                        },
         ],
       },
       {
@@ -244,14 +244,14 @@ export const MENU = {
         title: 'VINS BLANCS',
         items: [
           { name: 'Cabernet Sauvignon – IGP',   desc: '75cl · 37,5cl — Verre 14cl', price: '26 € · 16 € · 6 € le verre' },
-          { name: 'Chilien – Gato Negro',       desc: '75cl · Verre 14cl',           price: '28 € · 7 € le verre'        },
-          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                         price: '26 €'                        },
+          { name: 'Chilien – Gato Negro',       desc: '75cl · Verre 14cl',          price: '28 € · 7 € le verre'        },
+          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                       price: '26 €'                       },
         ],
       },
       {
         title: 'CHAMPAGNE',
         items: [
-          { name: 'Champagne',  desc: 'Bouteille · Coupe 12cl',                            price: '59 € · 10 €'                      },
+          { name: 'Champagne',  desc: 'Bouteille · Coupe 12cl', price: '59 € · 10 €' },
         ],
       },
     ],
@@ -314,14 +314,14 @@ export const MENU = {
       {
         title: 'DIGESTIFS',
         items: [
-          { name: 'Rhum blanc · Tequila · Get 27 · Cachaça',           price: '7 € · 7 € · 7 € · 8 €'           },
+          { name: 'Rhum blanc · Tequila · Get 27 · Cachaça', desc: '', price: '7 € · 7 € · 7 € · 8 €'},
         ],
       },
       {
         title: 'BOISSONS CHAUDES',
         items: [
-          { name: 'Café · Café crème · Thé ou Tisane',  price: '2,5 € · 3 € · 4 €' },
-          { name: 'Café Do Brasil',                     price: '9 €'               },
+          { name: 'Café · Café crème · Thé ou Tisane', desc: '', price: '2,5 € · 3 € · 4 €' },
+          { name: 'Café Do Brasil',                    desc: '', price: '9 €'               },
         ],
       },
     ],
@@ -331,7 +331,7 @@ export const MENU = {
     items: [
       { name: 'Manjar',          desc: 'Crème brésilienne maison à la noix de coco avec son caramel liquide', price: '7,5 €' },
       { name: 'Salade de Fruit', desc: 'Fruits frais maison de saison',                                       price: '7,5 €' },
-      { name: 'Tarte aux Pommes',                                                                             price: '7,5 €' },
+      { name: 'Tarte aux Pommes',desc: '',                                                                    price: '7,5 €' },
       { name: 'Dessert du Jour', desc: 'Préparation maison selon les arrivages',                              price: '7,5 €' },
     ],
   },
