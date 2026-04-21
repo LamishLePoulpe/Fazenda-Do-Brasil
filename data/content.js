@@ -15,11 +15,11 @@ export const PLATS = [
     bg:    'linear-gradient(135deg,#3D1A0A,#8B3A10)',
   },
   {
-    name:  'Poulet Grillé',
-    desc:  "Mariné aux herbes fraîches et huile d'olive",
-    price: '19 €',
-    badge: 'Grillades',
-    bg:    'linear-gradient(135deg,#2A1A0A,#8B6010)',
+    name:  'Copacabana',
+    desc:  'Nectar passion, nectar fraise, jus d\'ananas, sirop grenadine — 25cl',
+    price: '7 €',
+    badge: 'Cocktail Sans Alcool',
+    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
   },
   {
     name:  'Rôti de Porc',
@@ -29,18 +29,18 @@ export const PLATS = [
     bg:    'linear-gradient(135deg,#3D200A,#7A3A10)',
   },
   {
-    name:  "Gigot d'Agneau",
-    desc:  "Mariné aux herbes fraîches, huile d'olive",
-    price: '26 €',
-    badge: 'Grillades',
-    bg:    'linear-gradient(135deg,#1A1A0A,#6B5A10)',
-  },
-  {
     name:  'Muqueca de Peixe',
     desc:  'Poisson au lait de coco, riz blanc parfumé',
     price: '25 €',
     badge: 'Poisson',
     bg:    'linear-gradient(135deg,#0A1A3D,#10458B)',
+  },
+  {
+    name:  'Margarita',
+    desc:  'Tequila, citron, triple sec — 5cl',
+    price: '12 €',
+    badge: 'Cocktail',
+    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
   },
   {
     name:  'Gambas',
@@ -57,32 +57,18 @@ export const PLATS = [
     bg:    'linear-gradient(135deg,#0A2A0A,#2A6A2A)',
   },
   {
+    name:  'Poulet Grillé',
+    desc:  "Mariné aux herbes fraîches et huile d'olive",
+    price: '19 €',
+    badge: 'Grillades',
+    bg:    'linear-gradient(135deg,#2A1A0A,#8B6010)',
+  },
+  {
     name:  'Salade Tropicale',
     desc:  'Mesclun, cœurs de palmier, ananas, crevettes',
     price: '19 €',
     badge: 'Salade',
     bg:    'linear-gradient(135deg,#0A3D1A,#10882A)',
-  },
-  {
-    name:  'Manjar',
-    desc:  'Crème brésilienne maison, noix de coco, caramel',
-    price: '7,5 €',
-    badge: 'Dessert',
-    bg:    'linear-gradient(135deg,#3D1A1A,#8B3A3A)',
-  },
-  {
-    name:  'Tarte aux Pommes',
-    desc:  'Dessert maison de saison',
-    price: '7,5 €',
-    badge: 'Dessert',
-    bg:    'linear-gradient(135deg,#2A1A0A,#7A4A10)',
-  },
-  {
-    name:  'Caïpirinha',
-    desc:  'Cachaça, citron vert, sucre de canne — 5cl',
-    price: '10 €',
-    badge: 'Cocktail',
-    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
   },
   {
     name:  'Mojito',
@@ -92,6 +78,48 @@ export const PLATS = [
     bg:    'linear-gradient(135deg,#0A2A1A,#206040)',
   },
   {
+    name:  'Manjar',
+    desc:  'Crème brésilienne maison, noix de coco, caramel',
+    price: '7,5 €',
+    badge: 'Dessert',
+    bg:    'linear-gradient(135deg,#3D1A1A,#8B3A3A)',
+  },
+  {
+    name:  'Salade de fruits',
+    desc:  'Dessert maison de saison',
+    price: '7,5 €',
+    badge: 'Dessert',
+    bg:    'linear-gradient(135deg,#2A1A0A,#7A4A10)',
+  },
+  {
+    name:  'Café Do Brasil',
+    desc:  'Café, cachaça, crème sucrée',
+    price: '9 €',
+    badge: 'Boisson chaude',
+    bg:    'linear-gradient(135deg,#1A2A0A,#4A6A10)',
+  },
+  {
+    name:  'Caïpirinha',
+    desc:  'Cachaça, citron vert, sucre de canne — 5cl',
+    price: '10 €',
+    badge: 'Cocktail',
+    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
+  },
+  {
+    name:  "Gigot d'Agneau",
+    desc:  "Mariné aux herbes fraîches, huile d'olive",
+    price: '26 €',
+    badge: 'Grillades',
+    bg:    'linear-gradient(135deg,#1A1A0A,#6B5A10)',
+  },
+  {
+    name:  'Caïpi Black',
+    desc:  'Vodka noir, citron vert, sucre de canne — 5cl',
+    price: '10 €',
+    badge: 'Cocktail',
+    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
+  },
+  {
     name:  'Guaraná',
     desc:  'Le soda brésilien emblématique — 33cl',
     price: '5 €',
@@ -99,11 +127,11 @@ export const PLATS = [
     bg:    'linear-gradient(135deg,#1A2A0A,#4A6A10)',
   },
   {
-    name:  'Pression',
-    desc:  'Bière pression fraîche — 50cl',
-    price: '7,5 €',
-    badge: 'Bière',
-    bg:    'linear-gradient(135deg,#2A2A0A,#6A6A10)',
+    name:  'Ipanema',
+    desc:  'Nectar goyave, nectar banane, nectar mangue, sirop grenadine — 25cl',
+    price: '7 €',
+    badge: 'Cocktail Sans Alcool',
+    bg:    'linear-gradient(135deg,#0A3D10,#10882A)',
   },
 ];
 
@@ -162,15 +190,15 @@ export const FORMULES = [
 ];
 
 export const FOIRES = [
-  { ville: 'Moulins',         event: 'Foire de Moulins',         dates: '30/01 · 08/02', lieu: 'Parc Expo Moulins, Allier (03)',          status: 'passed',   label: 'Terminé'},
-  { ville: 'Rennes',          event: 'Foire de Rennes',          dates: '21/03 · 29/03', lieu: 'Parc expo Rennes, Ille-et-Vilaine (35)',  status: 'passed',   label: 'Terminé'},
-  { ville: 'Nantes',          event: 'Foire de Nantes',          dates: '02/04 · 06/04', lieu: 'Parc Expo Nantes, Loire-Atlantique (44)', status: 'passed',   label: 'Terminé'},
-  { ville: 'Limoges',         event: 'Foire de Limoges',         dates: '30/05 · 07/06', lieu: 'Parc Expo Limoges, Haute-Vienne (87)',    status: 'soon',     label: 'À venir'},
-  { ville: 'Nemours',         event: 'Foire de la Saint-Jean',   dates: '18/06 · 21/06', lieu: 'Coeur de Nemours, Seine-et-Marne (77)',   status: 'soon',     label: 'Bientôt'},
-  { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/03 · 28/03', lieu: 'Milly-la-Forêt, Essonne (91)',            status: 'upcoming', label: 'Confirmé'},
-  { ville: 'Douai',           event: 'Foire de Douai',           dates: 'A Confirmer',   lieu: 'Parc Expo Douai, Nord (59)',              status: 'upcoming', label: 'Confirmé'},
-  { ville: 'Montluçon',       event: 'Foire de Montluçon',       dates: '03/10 · 11/10', lieu: 'Parc Expo Montluçon, Allier (03)',        status: 'upcoming', label: 'Confirmé'},
-  { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '21/03 · 29/03', lieu: 'Grenoble, Isère (38)',                    status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Moulins',         event: 'Foire de Moulins',         dates: '30/01 · 08/02', lieu: 'Parc Expo Moulins (03)',   status: 'passed',   label: 'Terminé'},
+  { ville: 'Rennes',          event: 'Foire de Rennes',          dates: '21/03 · 29/03', lieu: 'Parc expo Rennes (35)',    status: 'passed',   label: 'Terminé'},
+  { ville: 'Nantes',          event: 'Foire de Nantes',          dates: '02/04 · 06/04', lieu: 'Parc Expo Nantes (44)',    status: 'passed',   label: 'Terminé'},
+  { ville: 'Limoges',         event: 'Foire de Limoges',         dates: '30/05 · 07/06', lieu: 'Parc Expo Limoges (87)',   status: 'soon',     label: 'À venir'},
+  { ville: 'Nemours',         event: 'Foire de la Saint-Jean',   dates: '18/06 · 21/06', lieu: 'Coeur de Nemours (77)',    status: 'soon',     label: 'Bientôt'},
+  { ville: 'Milly-la-Forêt',  event: 'Foire de Milly-la-Forêt',  dates: '26/03 · 28/03', lieu: 'Milly-la-Forêt (91)',      status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Douai',           event: 'Foire de Douai',           dates: 'A Confirmer',   lieu: 'Parc Expo Douai (59)',     status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Montluçon',       event: 'Foire de Montluçon',       dates: '03/10 · 11/10', lieu: 'Parc Expo Montluçon (03)', status: 'upcoming', label: 'Confirmé'},
+  { ville: 'Grenoble',        event: 'Foire de Grenoble',        dates: '21/03 · 29/03', lieu: 'Parc Expo Grenoble (38)',  status: 'upcoming', label: 'Confirmé'},
 ];
 
 /** Données de la carte complète par onglet */
@@ -198,33 +226,32 @@ export const MENU = {
   vins: {
     sections: [
       {
-        title: 'VINS ROUGE — 75cl / 37,5cl',
+        title: 'VINS ROUGE — 75cl · 37,5cl',
         items: [
-          { name: 'Bordeaux A.O.C',          desc: '75cl / 37,5cl — Verre 14cl',           price: '25 € / 15 € — 6 € le verre' },
-          { name: 'Chilien – Gato Negro',    desc: '75cl — Verre 14cl',                    price: '28 € — 7 € le verre'        },
+          { name: 'Bordeaux A.O.C',          desc: '75cl · 37,5cl · Verre 14cl',           price: '25 € · 15 € · 6 € le verre' },
+          { name: 'Chilien – Gato Negro',    desc: '75cl · Verre 14cl',                    price: '28 € · 7 € le verre'        },
           { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                              price: '26 €'                        },
         ],
       },
       {
         title: 'VINS ROSÉS',
         items: [
-          { name: 'Côte de Provence A.O.C',     desc: '75cl — Verre 14cl', price: '27 € — 7 € le verre' },
-          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl — Verre 14cl', price: '26 € — 5 € le verre' },
+          { name: 'Côte de Provence A.O.C',     desc: '75cl · Verre 14cl', price: '27 € · 7 € le verre' },
+          { name: 'Tarani – IGP Comté Tolosan', desc: '75cl · Verre 14cl', price: '26 € · 5 € le verre' },
         ],
       },
       {
         title: 'VINS BLANCS',
         items: [
-          { name: 'Cabernet Sauvignon – IGP',   desc: '75cl / 37,5cl — Verre 14cl', price: '26 € / 16 € — 6 € le verre' },
-          { name: 'Chilien – Gato Negro',       desc: '75cl — Verre 14cl',           price: '28 € — 7 € le verre'        },
+          { name: 'Cabernet Sauvignon – IGP',   desc: '75cl · 37,5cl — Verre 14cl', price: '26 € · 16 € · 6 € le verre' },
+          { name: 'Chilien – Gato Negro',       desc: '75cl · Verre 14cl',           price: '28 € · 7 € le verre'        },
           { name: 'Tarani – IGP Comté Tolosan', desc: '75cl',                         price: '26 €'                        },
         ],
       },
       {
-        title: 'CHAMPAGNE & DIGESTIFS',
+        title: 'CHAMPAGNE',
         items: [
-          { name: 'Champagne',  desc: 'Bouteille / Coupe 12cl',                            price: '59 € / 10 €'                      },
-          { name: 'Digestifs',  desc: 'Cachaça / Rhum blanc / Tequila / Get 27',           price: '8 € / 7 € / 7 € / 7 €'           },
+          { name: 'Champagne',  desc: 'Bouteille · Coupe 12cl',                            price: '59 € · 10 €'                      },
         ],
       },
     ],
@@ -235,9 +262,9 @@ export const MENU = {
       {
         title: 'COCKTAILS',
         items: [
-          { name: 'Caïpirinha / Caipi Black',  desc: 'Cachaça (ou Vodka Black), citron vert, sucre — 5cl',        price: '10 €' },
-          { name: 'Mojito / Mojito Fraise',    desc: 'Rhum, citron vert, menthe fraîche — 5cl',                   price: '10 €' },
-          { name: 'Mojito Royal',              desc: 'Rhum, citron vert, menthe, champagne — 6cl',                price: '12 €' },
+          { name: 'Caïpirinha · Caipi Black',  desc: 'Cachaça (ou Vodka Black), citron vert, sucre — 5cl',        price: '10 €' },
+          { name: 'Mojito · Mojito Fraise',    desc: 'Rhum, citron vert, menthe fraîche — 5cl',                   price: '10 €' },
+          { name: 'Mojito Royal',              desc: 'Rhum, citron vert, menthe fraîche, champagne — 6cl',        price: '12 €' },
           { name: 'Tequila Sunrise',           desc: 'Tequila, citron, jus d\'orange, grenadine — 5cl',           price: '9 €'  },
           { name: 'Planteur',                  desc: 'Rhum, citron, nectar fruits exotiques — 5cl',               price: '9 €'  },
           { name: 'Pina Colada',               desc: 'Rhum, coco, ananas, lait sucré — 5cl',                      price: '12 €' },
@@ -247,7 +274,7 @@ export const MENU = {
         ],
       },
       {
-        title: 'SANS ALCOOL — 25cl · 7€',
+        title: 'COCKTAIL SANS ALCOOL — 25cl',
         items: [
           { name: 'Ipanema',      desc: 'Goyave, banane, mangue, sirop de grenadine', price: '7 €' },
           { name: 'Copacabana',   desc: 'Passion, fraise, ananas',                    price: '7 €' },
@@ -258,17 +285,20 @@ export const MENU = {
       {
         title: 'SOFTS',
         items: [
-          { name: 'Guaraná',                                          desc: 'Soda brésilien — 33cl',                                                    price: '5 €'       },
-          { name: 'Coca / Coca-Zéro · Orangina / Fanta / Ice-Tea',   desc: '33cl',                                                                       price: '3,5 €'     },
-          { name: 'Sumol Orange / Ananas · Perrier / Red Bull',       desc: '33cl / 25cl',                                                                price: '4 € / 5 €' },
-          { name: 'Jus de Fruit / Nectar Fruits',                     desc: 'Orange-ananas-passion / Mangue-goyave-banane — 25cl',                       price: '5 €'       },
-          { name: 'Eau plate / pétillante · Limonade / Sirop',        desc: '50cl / 25cl',                                                                price: '2,5–4 € / 3 €' },
+          { name: 'Guaraná',                                          desc: 'Soda brésilien — 33cl',                                                price: '5 €'       },
+          { name: 'Coca · Coca-Zéro · Orangina · Fanta · Ice-Tea',    desc: '33cl',                                                                 price: '3,5 €'     },
+          { name: 'Sumol Orange · Sumol Ananas',                      desc: '25cl',                                                                 price: '4 €'       },
+          { name: 'Jus de Fruit · Nectar Fruits',                     desc: 'Orange - ananas - passion · Mangue - goyave - banane - fraise — 25cl', price: '5 €'       },
+          { name: 'Red Bull',                                         desc: '25cl',                                                                 price: '5 €'       },
+          { name: 'Perrier',                                          desc: '33cl',                                                                 price: '5 €'       },
+          { name: 'Eau plate · pétillante',                           desc: '50cl',                                                                 price: '2,5 · 4 €' },
+          { name: 'Limonade · Sirop (pêche ou grenadine)',            desc: '25cl',                                                                 price: '3 €'       },  
         ],
       },
       {
         title: 'BIÈRES',
         items: [
-          { name: 'Pression',              desc: '25cl / 50cl', price: '4 € / 7,5 €' },
+          { name: 'Pression',              desc: '25cl · 50cl', price: '4 € · 7,5 €' },
           { name: 'Super Bock · Heineken', desc: '25cl',        price: '5 €'          },
           { name: 'Desperados · Corona',   desc: '33cl',        price: '7,5 €'        },
         ],
@@ -276,9 +306,22 @@ export const MENU = {
       {
         title: 'APÉRITIFS',
         items: [
-          { name: 'Ricard · Whisky · Whisky+Soft',                    desc: '2cl / 4cl / 4cl',               price: '4 € / 8 € / 9 €'                    },
-          { name: 'Martini · Porto · Vodka · Kir · Kir Royal',        desc: '5cl / 5cl / 5cl / 12cl / 12cl', price: '6 € / 6 € / 8 € / 6 € / 11 €'     },
-          { name: 'Café / Café crème / Thé / Café do Brasil',         desc: 'Café do Brasil = Café + Cachaça + crème sucrée', price: '2,5 € / 3 € / 4 € / 9 €' },
+          { name: 'Ricard · Whisky · Whisky+Soft', desc: '2cl · 4cl · 4cl',               price: '4 € · 8 € · 9 €' },
+          { name: 'Kir · Kir Royal',               desc: 'cassis · pêche — 12cl',         price: '6 € · 11 €'      },
+          { name: 'Martini · Porto · Vodka',       desc: '5cl',                           price: '6 € · 6 € · 8 €' },
+        ],
+      },
+      {
+        title: 'DIGESTIFS',
+        items: [
+          { name: 'Rhum blanc · Tequila · Get 27 · Cachaça',           price: '7 € · 7 € · 7 € · 8 €'           },
+        ],
+      },
+      {
+        title: 'BOISSONS CHAUDES',
+        items: [
+          { name: 'Café · Café crème · Thé ou Tisane',  price: '2,5 € · 3 € · 4 €' },
+          { name: 'Café Do Brasil',                     price: '9 €'               },
         ],
       },
     ],
@@ -287,9 +330,9 @@ export const MENU = {
   desserts: {
     items: [
       { name: 'Manjar',          desc: 'Crème brésilienne maison à la noix de coco avec son caramel liquide', price: '7,5 €' },
-      { name: 'Salade de Fruit', desc: 'Fruits frais maison de saison',                                        price: '7,5 €' },
-      { name: 'Tarte aux Pommes',desc: 'Dessert maison traditionnel',                                          price: '7,5 €' },
-      { name: 'Dessert du Jour', desc: 'Préparation maison selon les arrivages',                               price: '7,5 €' },
+      { name: 'Salade de Fruit', desc: 'Fruits frais maison de saison',                                       price: '7,5 €' },
+      { name: 'Tarte aux Pommes',                                                                             price: '7,5 €' },
+      { name: 'Dessert du Jour', desc: 'Préparation maison selon les arrivages',                              price: '7,5 €' },
     ],
   },
 };
